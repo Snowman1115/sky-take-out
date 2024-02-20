@@ -31,6 +31,7 @@
         <jjwt>0.9.1</jjwt>
         <jaxb-api>2.3.1</jaxb-api>
         <poi>3.16</poi>
+        <PageHelper>6.1.0</PageHelper>
     </properties>
     <dependencyManagement>
         <dependencies>
@@ -123,6 +124,14 @@
                 <artifactId>wechatpay-apache-httpclient</artifactId>
                 <version>0.4.8</version>
             </dependency>
+
+            <!-- PageHelper -->
+            <dependency>
+                <groupId>com.github.pagehelper</groupId>
+                <artifactId>pagehelper</artifactId>
+                <version>${PageHelper}</version>
+            </dependency>
+
         </dependencies>
     </dependencyManagement>
 </project>
